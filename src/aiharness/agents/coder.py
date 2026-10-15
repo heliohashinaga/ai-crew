@@ -8,6 +8,8 @@ built from the existing ``aiharness.nodes.llm`` provider infra.
 
 from __future__ import annotations
 
+from collections.abc import Callable
+
 from aiharness.nodes.llm import build_llm_node
 from aiharness.nodes.models import Chat, CoderOutput, TaskState
 
